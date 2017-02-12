@@ -1,0 +1,6 @@
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\bin\Debug\MaxMinArray.exe.config
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\bin\Debug\MaxMinArray.exe
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\bin\Debug\MaxMinArray.pdb
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\obj\Debug\MaxMinArray.csprojResolveAssemblyReference.cache
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\obj\Debug\MaxMinArray.exe
+E:\Toma\QA\C#\Lesson3\MaxMinArray\MaxMinArray\obj\Debug\MaxMinArray.pdb

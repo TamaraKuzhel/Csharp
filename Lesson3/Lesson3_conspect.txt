@@ -1,0 +1,22 @@
+git diff tool - stackoverflow, learn more
+
+bash commands:
+- how to login
+- status
+- checkout - revert changes step by step, can't delete files
+- add
+- reset
+- log - view history
+- commit -m "comment to the written code"
+- echo
+- clean - delete untracked files. (-f - force; -d - directories as well)
+- push/pull
+- clone
+
+Commit doesn't mean push. To make your source code available in the Git you should push your code eaxh time.
+
+Homework
+try git hub chalenge
+read git manual
+create folders for homeworks in the github - commit, push
+
