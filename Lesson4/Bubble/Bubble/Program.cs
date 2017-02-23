@@ -41,7 +41,17 @@ namespace BubbleSort
             }
             return array;
         }
+
         
+
+        //int a = 1;
+        //int b = 3; 
+        //Swap(array, a, b);
+        //Console.WriteLine("Element #{0} is {1}", a+1, array[a]);
+        //Console.WriteLine("Element #{0} is {1}", b+1, array[b]);
+
+        //Console.ReadKey();
+
 
         public static int[] Swap(int[] input, int position1, int position2)
         {

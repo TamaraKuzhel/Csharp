@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace BubbleSort
+namespace Insertion
 {
     class Program
     {
@@ -20,28 +20,30 @@ namespace BubbleSort
                 array[i] = Convert.ToInt32(Console.ReadLine());
 
             }
-            Bubble(array);
+            InsertionSort(array);
         }
 
-
-        public static int[] Bubble(int[] array)
+        public static void InsertionSort(int[] array)
         {
-            int j = 1;
-            while (j != 0)
+
+            for (int i = 1; i < array.Length; i++)
             {
-                j = 0;
-                for (int i = 0; i < array.Length - 1; i++)
+                int position = i;
+                while (i > 0)
                 {
-                    if (array[i] > array[i + 1])
+                    if (array[i] < array[i - 1])
                     {
-                        Swap(array, i, i + 1);
-                        j = 1;
+                        Swap(array, i - 1, i);
+                        i--;
                     }
-                }
+                    else
+                    {
+                        i--;
+                    }
+                }    
+                i = position;
             }
-            return array;
         }
-        
 
         public static int[] Swap(int[] input, int position1, int position2)
         {
